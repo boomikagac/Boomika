@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling for sections */
+section {
+    padding: 20px;
+}
+
+/* Responsive design for project cards */
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
